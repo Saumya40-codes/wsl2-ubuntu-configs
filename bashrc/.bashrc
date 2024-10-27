@@ -136,8 +136,8 @@ export NVM_DIR="$HOME/.nvm"
 alias c='cd /mnt/c'
 alias d='cd /mnt/d'
 
-if [ -f ~/.Banner.sh ]; then
-  source ~/.Banner.sh
+if [ -f ~/.welcome.sh ]; then
+  source ~/.welcome.sh
   echo
   echo
 fi
